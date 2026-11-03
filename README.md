@@ -1,4 +1,5 @@
 ﻿# The Loop Core (v2.3) — Public Interface Specification
+ 10.5281/zenodo.23924381
 
 **Author:** Jason Colonghi, MBA
 **Status:** 100% PASS (10,000-Step Stress Suite & IEEE-754 Parity)
