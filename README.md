@@ -32,25 +32,7 @@ The engine has undergone a rigorous four-stage verification audit verifying cros
 
 ---
 
-## Repository Structure
 
-* `the-loop-core.js` — The core JavaScript runtime implementation.
-* `loop_core.py` — The core Python runtime implementation (featuring bit-for-bit parity).
-* `verify_parity.py` & `generate_js_trace.js` — Cross-language validation scripts.
-* `stress_test.js` — 100k-cycle adversarial phase-space benchmark.
-* `wal_test.js` — 1-million-write SQLite WAL and JSONL disk persistence test.
-* `concurrency_test.py` — 16-thread Python safety and scaling test.
-* `run_audit.bat` — Master batch script to execute the full verification suite.
-
----
-
-## Running the Verification Suite
-
-To run the complete verification suite locally on Windows:
-
-```powershell
-# Ensure dependencies are installed (for SQLite WAL test)
-npm install better-sqlite3
 
 # Execute the master verification audit
 .\run_audit.bat
